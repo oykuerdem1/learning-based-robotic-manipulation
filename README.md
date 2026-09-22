@@ -35,3 +35,11 @@ The final policy performs:
 source .venv/bin/activate
 pip install -r requirements.txt
 mjpython -m scripts.demo_final_single_policy
+
+
+## Evaluating the project
+
+python -m scripts.evaluate_final_random_cube
+python -m scripts.evaluate_final_fixed_cube
+
+
