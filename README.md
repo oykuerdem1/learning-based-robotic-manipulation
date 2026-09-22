@@ -24,6 +24,7 @@ models/sac_pick_place_random_cube_single_policy_final.zip
 ## Running the project
 
 source .venv/bin/activate
+pip install -r requirements.txt
 mjpython -m scripts.demo_final_single_policy
 
 ## Evaluating the project
